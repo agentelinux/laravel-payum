@@ -37,6 +37,9 @@ Include the service provider within `config/app.php`. The service povider is nee
     Recca0120\LaravelPayum\LaravelPayumServiceProvider::class,
     ...
 ];
+
+```bash
+php artisan vendor:publish --provider="Recca0120\LaravelPayum\LaravelPayumServiceProvider"
 ```
 
 ## Config
